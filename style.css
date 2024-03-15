@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(178, 175, 180);
+  }
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lavender;
+    margin-top: 80px;
+    border-radius: 35px;
+    padding-bottom: 20px;
+  }
+  #signupForm,#loginForm{
+    padding-top: 10px;
+  }
+  form {
+    display: none;
+  }
+  input{
+    height: 40px;
+    border-radius: 15px;
+    width: 80%;
+    padding-left: 10px;
+    color: black;
+    box-shadow: 0 0 5px 5px rgb(61, 61, 60);
+  }
+  #login1{
+    background-color: rgb(78, 78, 245);
+    box-shadow: 0 0 5px 5px rgb(37, 35, 35);
+    height: 35px;
+    border-radius: 15px;
+    width: 40%;
+    font-size: large;
+    color: black;
+  }
+
+ 
+  #signup1{
+    background-color: white;
+    height: 35px;
+    border-radius: 15px;
+    width: 40%;
+    font-size: large;
+    color: black;
+  }
+  #login2{
+    background-color: white;
+    box-shadow: 0 0 5px 5px rgb(37, 35, 35);
+    height: 35px;
+    border-radius: 15px;
+    width: 40%;
+    font-size: large;
+    color: black;
+  }
+
+ 
+  #signup2{
+    background-color: rgb(78, 78, 245);
+    height: 35px;
+    box-shadow: 0 0 5px 5px rgb(37, 35, 35);
+    border-radius: 15px;
+    width: 40%;
+    font-size: large;
+    color: white;
+  }
+  
+ 
+  
+  #login-button{
+    background-color: rgb(78, 78, 245);
+    height: 40px;
+    border-radius: 15px;
+    width: 84%;
+    font-size: large;
+    color: white;
+
+  }
+  #signup-button{
+    background-color: rgb(78, 78, 245);
+    height: 40px;
+    border-radius: 15px;
+    width: 84%;
+    font-size: large;
+    color: white;
+  }
+  #onclick{
+    color: rgb(78, 78, 245);
+    border: none;
+    font-size: large;
+  }
+  form.active {
+    display: block;
+  }
